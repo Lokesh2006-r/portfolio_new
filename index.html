@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh R | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Lokesh R, a Computer Science & Engineering Student passionate about Web Development and Software Engineering.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Lokesh<span class="accent">.</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#cp" class="nav-link">Stats</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="https://drive.google.com/file/d/1c3QIUrMDfPSV1Hy2rWguNnnph_1SQvWf/view?usp=sharing"
+                        target="_blank" class="btn btn-sm btn-outline">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <!-- <div class="badge fade-in-up">Welcome to my world</div> -->
+                    <h1 class="fade-in-up delay-1">Hi, I'm <span class="gradient-text">Lokesh R</span></h1>
+                    <h2 class="fade-in-up delay-2">Computer Science & Engineering Student</h2>
+                    <p class="fade-in-up delay-3">Passionate about solving real-world problems through code. I craft
+                        diverse, interactive, and user-friendly web applications and enjoy Competitive Programming.</p>
+                    <div class="hero-btns fade-in-up delay-4">
+                        <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in-up delay-3">
+                    <div class="blob-cont">
+                        <div class="blob blob-1"></div>
+                        <div class="blob blob-2"></div>
+                        <div class="blob blob-3"></div>
+                    </div>
+
+                    <div class="hero-image-container">
+                        <div class="hero-img-frame">
+                            <img src="https://lh3.googleusercontent.com/d/19etbMtB6jXR7FcAwqVeCI3dr2BlI7A_v"
+                                alt="Lokesh R" class="hero-img" referrerpolicy="no-referrer"
+                                onerror="this.src='https://drive.google.com/uc?export=view&id=19etbMtB6jXR7FcAwqVeCI3dr2BlI7A_v'">
+                        </div>
+
+                        <!-- Floating Badges -->
+                        <!-- <div class="floating-badge badge-top-right">
+                            <div class="badge-icon"><i class="fas fa-code"></i></div>
+                            <div class="badge-text">
+                                <span>Web Developer</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-bottom-left">
+                            <div class="badge-icon"><i class="fas fa-check-circle"></i></div>
+                            <div class="badge-text">
+                                <span>300+</span>
+                                <small>LeetCode</small>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">My Journey so far</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text fade-in-left">
+                        <h3>Passionate about <span class="accent">Technology</span> & <span
+                                class="accent">Innovation</span></h3>
+                        <p>I am a Computer Science and Engineering student at <strong>KIT (Kalaignar Karunanidhi
+                                Institute of Technology)</strong>, Coimbatore. I have a keen interest in web
+                            development, real-world software projects, and exploring new technologies.</p>
+                        <p>Currently in my Pre-Final year with a CGPA of <strong>7.89/10.0</strong>, I have taken
+                            coursework in Computer Networks, Operating Systems, DBMS, and Machine Learning.</p>
+
+                        <div class="timeline mt-4">
+                            <div class="timeline-item">
+                                <span class="timeline-year">2023 - 2027</span>
+                                <div class="timeline-content">
+                                    <h4>B.E. Computer Science Engineering</h4>
+                                    <h5>KIT - Kalaignarkarunanidhi Institute of Technology, Coimbatore</h5>
+                                    <p>Pre-Final Year Student. Active in coding clubs and technical symposiums.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-mini fade-in-right">
+                        <h3 style="margin-bottom: 20px;">Tech Stack</h3>
+                        <div class="skill-grid">
+                            <div class="skill-tag"><i class="fab fa-java"></i> Java</div>
+                            <div class="skill-tag"><i class="fab fa-python"></i> Python</div>
+                            <div class="skill-tag"><i class="fas fa-code"></i> C/C++</div>
+                            <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+                            <div class="skill-tag"><i class="fab fa-react"></i> React.js</div>
+                            <div class="skill-tag"><i class="fab fa-node-js"></i> Node.js</div>
+                            <div class="skill-tag"><i class="fas fa-database"></i> SQL / MongoDB</div>
+                            <div class="skill-tag"><i class="fab fa-git-alt"></i> Git/GitHub</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience" style="background: rgba(255,255,255,0.01);">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Experience</h2>
+                    <p class="section-subtitle">Professional Work</p>
+                </div>
+
+                <div class="timeline fade-in-up" style="max-width: 800px; margin: 0 auto;">
+                    <div class="timeline-item">
+                        <span class="timeline-year">June 2025</span>
+                        <div class="timeline-content">
+                            <h4>Full Stack Development Intern</h4>
+                            <h5>LearnLogicify Technologies – Coimbatore, India (Offline)</h5>
+                            <p>• Completed a structured internship focused on full-stack development, covering both
+                                frontend and backend technologies.</p>
+                            <p>• Gained practical experience building web applications using modern development
+                                workflows and real-time testing through Postman.</p>
+                            <p>• Worked on integrating frontend and backend modules, ensuring smooth communication
+                                between APIs and UI components.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">What I've built recently</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card fade-in-up">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Movie Recommender System</h3>
+                                <span class="project-date">Nov 2025</span>
+                            </div>
+                            <p class="project-desc">A full-stack movie recommendation platform using ML-based content
+                                filtering. Features a responsive React.js interface with dynamic search and personalized
+                                suggestions based on user preferences. Backend powered by Python (Flask/FastAPI).</p>
+                            <div class="project-tags">
+                                <span>React.js</span><span>Python</span><span>Machine
+                                    Learning</span><span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Lokesh2006-r/movie_recomendation" target="_blank"
+                                    class="btn-link"><i class="fas fa-external-link-alt"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card fade-in-up delay-1">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Animal Detection System (YOLOv8)</h3>
+                                <span class="project-date">Nov 2025</span>
+                            </div>
+                            <p class="project-desc">Real-time animal detection system using YOLOv8 to identify multiple
+                                species with high accuracy. Integrated OpenCV pipelines for frame preprocessing and
+                                trained on a custom dataset for challenging environments.</p>
+                            <div class="project-tags">
+                                <span>Python</span><span>OpenCV</span><span>YOLOv8</span><span>Deep Learning</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Lokesh2006-r/animal_detection" target="_blank"
+                                    class="btn-link"><i class="fas fa-external-link-alt"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card fade-in-up delay-2">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Ticket Booking Website</h3>
+                            </div>
+                            <p class="project-desc">BookMyZone is a one-stop destination for booking tickets to
+                                entertainment events. Features a seamless booking flow.</p>
+                            <div class="project-tags">
+                                <span>HTML</span><span>CSS</span><span>JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://lokesh2006-r.github.io/Ticket_booking-2/" target="_blank"
+                                    class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card fade-in-up delay-3">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Student Code Tracker Website</h3>
+                                <span class="project-date">Nov 2025</span>
+                            </div>
+                            <p class="project-desc">A full-stack web platform that allows students to track coding
+                                practice across platforms like LeetCode, CodeChef, and HackerRank. Features a
+                                responsive dashboard to monitor solved problems, coding streaks, and progress
+                                analytics. Backend APIs and MongoDB database store user activity and update coding
+                                statistics in real time.</p>
+                            <div class="project-tags">
+                                <span>Python</span><span>Flask</span><span>React.js</span><span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://contest-trackers.netlify.app/login" target="_blank" class="btn-link"><i
+                                        class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competitive Programming & Stats -->
+        <section id="cp" class="section cp-stats" style="background: rgba(255,255,255,0.01);">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Competitive Programming</h2>
+                    <p class="section-subtitle">Problem Solving Stats</p>
+                    <div class="live-indicator"><span class="live-dot"></span> Live Data</div>
+                </div>
+
+                <div class="cp-grid fade-in-up">
+                    <!-- LeetCode Card -->
+                    <div class="cp-card" id="lc-card">
+                        <div class="cp-card-header">
+                            <span class="cp-platform">LeetCode</span>
+                            <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME" target="_blank"
+                                class="cp-profile-link" id="lc-link" title="View Profile"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="cp-loading" id="lc-loading">
+                            <div class="cp-spinner"></div>
+                            <span>Fetching live data...</span>
+                        </div>
+                        <div class="cp-data" id="lc-data" style="display:none;">
+                            <span class="cp-rating" id="lc-rating">--</span>
+                            <p class="cp-rank" id="lc-rank">--</p>
+                            <p class="cp-solved" id="lc-solved">-- Problems Solved</p>
+                            <div class="cp-extra" id="lc-extra"></div>
+                        </div>
+                        <div class="cp-error" id="lc-error" style="display:none;">⚠ Could not load data</div>
+                        <div class="cp-last-updated" id="lc-updated"></div>
+                    </div>
+
+                    <!-- CodeChef Card -->
+                    <div class="cp-card" id="cc-card">
+                        <div class="cp-card-header">
+                            <span class="cp-platform">CodeChef</span>
+                            <a href="https://www.codechef.com/users/YOUR_CODECHEF_USERNAME" target="_blank"
+                                class="cp-profile-link" id="cc-link" title="View Profile"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="cp-loading" id="cc-loading">
+                            <div class="cp-spinner"></div>
+                            <span>Fetching live data...</span>
+                        </div>
+                        <div class="cp-data" id="cc-data" style="display:none;">
+                            <span class="cp-rating" id="cc-rating">--</span>
+                            <p class="cp-rank" id="cc-rank">--</p>
+                            <p class="cp-solved" id="cc-solved">-- Problems Solved</p>
+                            <div class="cp-extra" id="cc-extra"></div>
+                        </div>
+                        <div class="cp-error" id="cc-error" style="display:none;">⚠ Could not load data</div>
+                        <div class="cp-last-updated" id="cc-updated"></div>
+                    </div>
+
+                    <!-- Codeforces Card -->
+                    <div class="cp-card" id="cf-card">
+                        <div class="cp-card-header">
+                            <span class="cp-platform">Codeforces</span>
+                            <a href="https://codeforces.com/profile/YOUR_CODEFORCES_USERNAME" target="_blank"
+                                class="cp-profile-link" id="cf-link" title="View Profile"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="cp-loading" id="cf-loading">
+                            <div class="cp-spinner"></div>
+                            <span>Fetching live data...</span>
+                        </div>
+                        <div class="cp-data" id="cf-data" style="display:none;">
+                            <span class="cp-rating" id="cf-rating">--</span>
+                            <p class="cp-rank" id="cf-rank">--</p>
+                            <p class="cp-solved" id="cf-solved">-- Problems Solved</p>
+                            <div class="cp-extra" id="cf-extra"></div>
+                        </div>
+                        <div class="cp-error" id="cf-error" style="display:none;">⚠ Could not load data</div>
+                        <div class="cp-last-updated" id="cf-updated"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Achievements -->
+        <section id="certs" class="section certs">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Certifications & Achievements</h2>
+                    <p class="section-subtitle">Awards and Recognition</p>
+                </div>
+
+                <div class="certs-grid fade-in-up">
+                    <div class="cert-card">
+                        <h4>Web Development Certification</h4>
+                        <div class="cert-issuer"><span>Infosys</span> <span>2024</span></div>
+                    </div>
+                    <div class="cert-card">
+                        <h4>Get Started with Python</h4>
+                        <div class="cert-issuer"><span>Coursera</span> <span>2024</span></div>
+                    </div>
+                    <div class="cert-card">
+                        <h4>Getting Started with Linux Fundamentals</h4>
+                        <div class="cert-issuer"><span>RedHat</span> <span>2025</span></div>
+                    </div>
+                    <div class="cert-card">
+                        <h4>Fundamentals of Databases</h4>
+                        <div class="cert-issuer"><span>Simplilearn</span> <span>2025</span></div>
+                    </div>
+                </div>
+
+                <div class="achievements-list fade-in-up delay-2"
+                    style="margin-top: 50px; background: rgba(255,255,255,0.02); padding: 30px; border-radius: 12px;">
+                    <h3 style="margin-bottom: 20px;">Key Achievements & Volunteering</h3>
+                    <ul>
+                        <li><i class="fas fa-trophy"></i> <span><strong>Salesforce Trailhead:</strong> Earned Agent,
+                                Blazer, and Innovator badges.</span></li>
+                        <li><i class="fas fa-fire"></i> <span><strong>CodeChef Streak:</strong> Maintained a 300+ day
+                                streak, earning the Diamond batch.</span></li>
+                        <li><i class="fas fa-award"></i> <span><strong>Symposium Winner:</strong> Secured a win in a
+                                non-technical event at an inter-college symposium.</span></li>
+                        <li><i class="fas fa-hand-holding-heart"></i> <span><strong>Volunteering:</strong> Supported
+                                college placement cell with mock interviews and coding round preparation.</span></li>
+                        <li><i class="fas fa-users"></i> <span><strong>Coordinator:</strong> Managed events during
+                                Udhayam Technical Symposium.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="contact-wrapper fade-in-up">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of
+                            your visions.</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <span>Call Me</span>
+                                    <p>+91 9150315247</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <span>Email Me</span>
+                                    <p>kit27.cse25@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <span>Location</span>
+                                    <p>Coimbatore, Tamilnadu</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/lokesh-r-3484b1292/" target="_blank"
+                                class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/lokesh2006-r" target="_blank" class="social-btn"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/lokez__x?igsh=MWM1OHZ6cnd1bXMxbQ==" target="_blank"
+                                class="social-btn"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form glass-panel" action="https://formspree.io/f/mdawpnqb" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Lokesh R. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
